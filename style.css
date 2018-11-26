@@ -8,6 +8,10 @@
 	font-weight: bold;
 }
 
+body {
+	background-color: #00B8D4;
+}
+
 section {
 	max-width: 100%;
 	padding: 100px 0;
@@ -75,6 +79,7 @@ section {
 	float: left;
 	background-color: #FFD600;
 	width: 65%;
+	height: 517px;
 }
 
 #third p {
@@ -91,7 +96,9 @@ section {
 
 #thirdwhite {
 	background-color: #ffff;
-	padding: 20px 0;
+	padding: 38px 0 113px 0;
+	height: 517px;
+
 
 }
 
@@ -100,14 +107,17 @@ section {
 	background-color: #FFD600;
 	border: 1px solid #000;
 	padding: 7px;
+	font-size: 15px;
 	position: relative;
-	margin: 65px 0 0 0;
+	margin: 16px 0 0 0;
 	-webkit-transition: 0.2s;
 	transition: 0.2s;
 }
 
 #third button:hover{
-	background-color: #00B8D4;
+	background-color: #ffff;
+	border: none;
+	color: #FFD600;
 }
 
 #thirdwhite h2 {
@@ -117,7 +127,7 @@ section {
 	color: #E7BB3B;
 }
 .box {
-	margin: 33px 0 0px 30px;
+	margin: 0 0 0px 30px;
 }
 
 .box p {
@@ -133,6 +143,10 @@ section {
 
 #fourwhite {
 	float: left;
+    background-color: #ffffff;
+    width: 38%;
+    height: 517px;
+    padding: 30px 0;
 }
 
 #fourwhite h2 {
@@ -153,5 +167,83 @@ section {
 }
 
 #four {
+	background-color: #00B8D4;
+	padding: 40px 0;
+	margin: 0 0 0 37px;
+	height: 517px;
+}
 
+#four p {
+	font-family: 'IBM Plex Sans', sans-serif;
+	margin-left: -5px;
+    width: 114%;
+    margin-top: 25px;
+}
+
+#four button {
+		border-radius: 13px;
+		background-color: #00b8d4;
+		border: 1px solid #ffff;
+		color: #ffff;
+		font-size: 15px;
+		padding: 7px;
+		position: relative;
+		margin: 18% 0 0 0;
+		-webkit-transition: 0.2s;
+		transition: 0.2s;
+}
+
+#four button:hover {
+	border: none;
+	background-color: #ffff;
+	color: #00b8d4;
+}
+.contentimg {
+	margin: 35px 0;
+}
+
+#five {
+	float: left;
+	background-color: #FF6D00;
+	width: 65%;
+	height: 517px;
+}
+
+#fivewhite {
+	background-color: #ffff;
+	padding: 38px 0 113px 0;
+	height: 517px;	
+}
+
+#fivewhite h2 {
+		font-size: 23px;
+	width: 90%;
+	margin-bottom: 25px;
+	color: #E7BB3B;
+}
+
+#five button {
+	color: #ffff;
+	border-radius: 13px;
+	background-color: #FF6D00;
+	border: 1px solid #ffff;
+	padding: 7px;
+	font-size: 15px;
+	position: relative;
+	margin: 16px 0 0 0;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+
+
+#five button:hover {
+	background-color: #ffff;
+	color: #FF6D00;
+	border: none;
+}
+
+.boxx p {
+	font-size: 15px;
+	font-weight: bold;
+	color: #546E7A;
 }
