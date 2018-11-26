@@ -12,6 +12,12 @@ body {
 	background-color: #00B8D4;
 }
 
+
+p {
+	font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
 section {
 	max-width: 100%;
 	padding: 100px 0;
@@ -69,6 +75,8 @@ section {
 	margin-bottom: 10px;
 	font-size: 17px;
 	color: #ffff;
+	font-family: 'Myriad';
+
 }
 
 #second ul {
@@ -181,16 +189,17 @@ section {
 }
 
 #four button {
-		border-radius: 13px;
-		background-color: #00b8d4;
-		border: 1px solid #ffff;
-		color: #ffff;
-		font-size: 15px;
-		padding: 7px;
-		position: relative;
-		margin: 18% 0 0 0;
-		-webkit-transition: 0.2s;
-		transition: 0.2s;
+	border-radius: 13px;
+	background-color: #00b8d4;
+	border: 1px solid #ffff;
+	color: #ffff;
+	font-size: 15px;
+	padding: 7px;
+	position: relative;
+	margin: 20% 0 0 0px;
+	left: 25%;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
 }
 
 #four button:hover {
